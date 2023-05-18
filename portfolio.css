@@ -1,0 +1,164 @@
+#backgroundy{
+    
+    margin: 0;
+    padding: 0;
+
+    
+    width: 100%;
+    
+    background-color: aquamarine;
+    background-size: cover;
+    background-position: center;
+}
+body{
+    background: aquamarine;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.logo{
+    width: 80px;
+}
+
+
+
+nav{
+    background-color: pink;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+nav ul li{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 150px;
+    display: inline-block;
+    list-style: none;
+    margin: 10px 10px;
+
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    position: relative;
+}
+
+nav ul li a::after{
+    content: " ";
+    width: 0;
+    height: 4px;
+    background: rgb(207, 0, 0);
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.5s;
+
+}
+
+
+nav ul li a:hover::after{
+    width: 100%;
+}
+
+
+.header-text{
+    margin-top:  15%;
+    font-size: 30px;
+}
+
+.header-text h1 {
+    color: palevioletred;
+    margin-left: 15%;
+
+}
+.header-text p {
+    color: rgb(255, 255, 255);
+    margin-left: 15%;
+
+}
+
+.header-text h1 span{
+    color: #9b0000;
+}
+
+.row{
+    margin: 0px;
+    padding: 80px  150px;
+    width: 100%vw;
+    background-color: aquamarine;
+    position: absolute;
+    
+    align-items: center;
+   
+    
+}
+
+
+.about{
+    display: inline;
+    position: relative;
+    float: left;
+    width: 100%vw;
+}
+
+#second-image{
+    height: 600px;
+}
+
+
+
+
+
+#buttuns {
+    text-decoration: none;
+     width: 100%;
+     display: flex;
+     justify-content: space-evenly;
+     padding: 50px;
+ 
+ }
+ 
+ #buttuns a {
+     font-size: 100px;
+     text-decoration: none;
+ 
+ }
+
+
+ #buttuns a {
+    width: max-content;
+    height: max-content;
+    padding: 10px;
+    background-color: rgb(214, 0, 182);
+    font-size: 50px;
+    text-decoration: none;
+    text-decoration-line: none;
+    text-decoration-thickness: initial;
+    text-decoration-style: initial;
+    text-decoration-color: initial;
+    border-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    transition: 1s;
+}
+
+
+iframe{
+    margin-left: 50px;
+    width: 60vw;
+    height: 400px;
+}
+
+
+#row h1 {
+    margin: auto;
+
+    
+.logo {
+    margin: 30px;
+}
