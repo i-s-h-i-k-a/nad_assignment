@@ -1,0 +1,12 @@
+body{
+    background-color: grey;
+}
+*{
+    color:darkslategray;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+#h{
+    margin-left: 40%;
+    color: black;
+}
